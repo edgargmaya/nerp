@@ -1,0 +1,27 @@
+{
+    "name": "repo-creator",
+    "version": "0.0.1",
+    "description": "A simple web app to create GitHub repositories with initial configuration via the GitHub API.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "keywords": [
+      "GitHub",
+      "repository",
+      "automation",
+      "DevOps",
+      "scaffolding"
+    ],
+    "author": "Edgar Maya",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^0.27.2",
+      "express": "^4.18.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.20"
+    }
+  }
+  
